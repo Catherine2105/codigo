@@ -1,0 +1,80 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuenteParrafos);
+    background-color: var(--azul-claro);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+  :root{
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --azul-oscuro: #7494EA;
+    --azul-claro: #D0E1D4;
+    --blanco: #FFFFFF; 
+  }
+
+  .contenedor{
+    background-color: var(--blanco);
+    max-width: 30rem;
+    margin: 5rem auto;
+    border-radius: 4%;
+    padding-bottom: 1rem;
+  }
+  @media (min-width: 800px) {
+      .contenedor{
+        max-width: 40rem;
+      }
+  }
+
+  .titulo{
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin: 0 1rem;
+  }
+
+  @media (min-width: 800px) {
+    .titulo{
+      font-size: 2.7rem;
+    }
+}
+
+  .parrafo{
+    text-align: center;
+  }
+
+  .texto{
+    font-size: 1.3rem;
+    margin: 2.5rem;
+  }
+
+  @media (min-width: 800px) {
+    .texto{
+      font-size: 1.5rem;
+    }
+  }
+
+ 
+  .codigo{
+    max-width: 25rem;
+    margin: 2rem;
+    border-radius: 5%;
+  }
+
+  @media (min-width: 800px) {
+    .codigo{
+      max-width: 35rem;
+      margin: 2rem 2.5rem auto 2.5rem;
+    } 
+  }
+
+ 
+
+ 
